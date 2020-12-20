@@ -1,5 +1,10 @@
 //vars
-$grid-gutter-width:           50px;
+$grid-gutter-widths: (
+    xs: 10px,
+    sm: 30px,
+	md: 40px,
+	lg: 50px
+);
 
 // Required
 @import "./node_modules/bootstrap/scss/functions";
@@ -11,5 +16,6 @@ $grid-gutter-width:           50px;
 @import "./node_modules/bootstrap/scss/reboot";
 @import "./node_modules/bootstrap/scss/type";
 @import "./node_modules/bootstrap/scss/grid";
+@import "./gutters";
 
 
